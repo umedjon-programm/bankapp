@@ -33,7 +33,7 @@ func ExamplePaymentSources() {
 			Balance: -10,
 			Name:    "card",
 			Active:  true,
-			Pan:     "5058 2702 XXXX 0004",
+			PAN:     "5058 2702 XXXX 0004",
 		},
 	}
 	for _, p := range PaymentSources(payments) {
