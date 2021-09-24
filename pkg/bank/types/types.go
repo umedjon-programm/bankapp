@@ -11,11 +11,11 @@ const (
 	USD Currency = "USD"
 )
 
-type PAN string
+
 
 type Card struct {
 	Id         int
-	Pan        PAN
+	PAN       string
 	Balance    Money
 	Currency   Currency
 	Color      string
